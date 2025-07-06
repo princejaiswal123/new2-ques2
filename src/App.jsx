@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function TodoPaginationSimple() {
+export default function pagination() {
   const [todos, setTodos] = useState([]);
   const [page, setPage] = useState(1);
   const perPage = 10;
